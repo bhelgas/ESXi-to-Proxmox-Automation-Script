@@ -63,9 +63,10 @@ ENABLE_TPM=true
 TEMP_DIR="/tmp/vmdk-temp/"
 VMDK_FILE="example-vmdk.vmdk"
 QCOW2_FILE="example.qcow2"
+```
 
 # Run the script
-sudo ./vmdk_to_qcow2.sh
+sudo ./script.sh
 
 
 # Notes
