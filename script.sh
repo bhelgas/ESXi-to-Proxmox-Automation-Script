@@ -17,7 +17,7 @@ START_TIME=$(date +%s)
 # Logging function
 log_message() {
     local msg="$1"
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - $msg" >> /mnt/pve/vm-disks/logs/backup.log
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $msg" >> /mnt/pve/DISKNAME/logs/backup.log
 }
 # Create temporary directory for saving files
 log_message "Creating temporary save location in $TEMP_DIR"
