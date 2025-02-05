@@ -1,4 +1,5 @@
 # VMDK to QCOW2 Conversion Script
+## ESXi to Proxmox migration
 
 This script automates the process of converting a VMDK file from ESXi to QCOW2 format, making it ready for use in Proxmox. It handles backup, VM creation, disk import, and more to facilitate seamless migration from ESXi to Proxmox.
 
